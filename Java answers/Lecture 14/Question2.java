@@ -42,9 +42,9 @@ public class TicketPrice {
 	public void printTicketPrice(int age) {
 		
 			//fill the appropriate if condition
-			if(age<=3 || age>=100){
+			if(age<3 || age>100){
 			System.out.println("Ticket Price: 0");
-			}else if(age<=13 || age>=s){
+			}else if((age>3 && age<13)||(age>60)){
 			System.out.println("Ticket Price: 5");
 		}else{	//fill the appropriate else condition
 			System.out.println("Ticket Price: 10");
