@@ -18,32 +18,14 @@ public class CountDemo {
 	
 	public static void main(String[] args) {
 		
-		int maths =Integer.parseInt(args[0]);
-		
-		int sci= Integer.parseInt(args[1]);
-		
-		int s = Integer.parseInt (args[2]);
-		
-		int e = Integer.parseInt(args[3]);
-		
-		int p = 0;
-		
-		if(maths>=50){
-			p++;
-		}
-		
-		if(sci>=50){
-		p++;
-		}	
-			if(s>=50){
-			p++;	
-			}
-			
-			if(e>=50){
+		int c = 0;
+		for(String i:args){
+		if(Integer.parseInt(i)>=50){
 			p++	;
 			}
+		}
 			
-			System.out.println("passCount = " + p);
+			System.out.println("passCount = " + c);
 			
 	
 	}
