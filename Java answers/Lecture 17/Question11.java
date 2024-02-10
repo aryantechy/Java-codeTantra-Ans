@@ -11,29 +11,17 @@ public class PrimeNumbers {
 	
 	public void primeInLimits(int start, int end) {
 	for(int i = start ; i <= end ; i++)
-	
 	{
-		
-		//logic for checking number is prime or not
-		
 		int count = 0;
-		
 		for(int j = 1 ; j <= i ; j++)
-		
 		{
 			
-			if(i % j == 0)
+	if(i % j == 0)
+	count = count+1;
 			
-			count = count+1;
-			
-		}
-		
-		if(count == 2)
-		
-		System.out.print(i+" ");
-		
 }
-		
-	
-	}
+	if(count == 2)
+	System.out.print(i+" ");
+}
+}
 }

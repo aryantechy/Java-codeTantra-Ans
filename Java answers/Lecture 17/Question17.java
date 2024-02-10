@@ -41,13 +41,6 @@ public class BreakTargetDemo {
 				System.out.println("i = " + i);
 				InnerLoop :
 					for (int j = 1; j < 10; j++) {
-						
-						// Write code to break OuterLoop, when i is a multiple of 11
-						
-				
-							
-							
-							
 							if(i%11 ==0){
 								
 								break OuterLoop;
@@ -59,16 +52,6 @@ public class BreakTargetDemo {
 								break InnerLoop;
 								
 							}
-							
-					
-						
-						
-						
-						// Write code to break InnerLoop, when j is a multiple of 5
-						
-						
-						
-						
 						System.out.println("j = " + j);
 					}
 			}

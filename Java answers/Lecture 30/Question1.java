@@ -8,16 +8,6 @@ the format specifiers are : %f, %d and %s
 the parameters are 12.95, 24 and "Raj"
 The format(...) method formatted the parameter values as per the format specifiers and produced the output string.
 
-Java's PrintStream.format(String format, Object... args), PrintStream.printf(String format, Object... args) and String.format(String format, Object... args) methods are equivalent methods that provide this functionality.
-
-There are many converters, flags and specifiers, which are documented in java.util.Formatter class.
-
-For example, if you want to know about the formatting character %n, click on the above link to Formatter and go to the formatting character conversion table under Conversions section.
-
-We will learn more about formatting in the later sections. Retype the code below and submit.
-
-
-'
 package q11185;
 public class StringFormatting {
 	public static void main(String[] args) {

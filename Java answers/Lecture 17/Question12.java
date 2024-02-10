@@ -7,127 +7,37 @@ Reverse : 963
 
 package q10893;
 class SumAndReverseNumber {
-	
-	
-	
-	static int reversDigits(int num)
-	
-	{
-		
-		
-		
-		// Making input hard coded else
-		
-	//	num = 25;
-		
-		// else do not initialize num
-		
-		
-		
-		
-		
+
+	static int reversDigits(int num){
 		int rev = 0, rem;
-		
-		
-		
-		// Statements to be executed in do loop
-		
 		do {
-			
-			// Reversal of a number as discussed in
-			
-			// algorithm
-			
 			rem = num % 10;
-			
 			rev = rev * 10 + rem;
-			
 			num = num / 10;
-			
-			
-			
 		}
 		
-		
-		
-		// Condition check
-		
 		while (num > 0);
-		
-		
-		
-		// Returning reverse of the user enter number
-		
 		return rev;
 		
 	}
-	
-	
-	
-	
-	
-	static int sumDigits(int num)
-	
-	{
-		
-		
-		
-	//	num = 25;
-		
-		
-		
-		// Creating remainder variable
-		
+
+	static int sumDigits(int num){
 		int sum = 0, rem;
-		
-		
-		
-		
-		
 		do {
-			
-			
-			
 			rem = num % 10;
-			
 			sum = sum + rem;
-			
 			num = num / 10;
-			
-			
-			
 		}
-		
-		// condition check
-		
 		while (num > 0);
-		
-		
-		
 		return sum;
 		
 	}
-	
-	
-	
-	public static void sumAndReverseANumber(int num)
-	
-	{
+public static void sumAndReverseANumber(int num){
 		
 		// num = Integer.parseInt(args[0]);
 		
 	//	System.out.println(num);
-		
-		
-		
-		System.out.println("Sum of digits : "+ sumDigits(num));
-		
-		System.out.println("Reverse : "+ reversDigits(num));
-		
-		
-		
-		
-		
-		}
-		
-		}
+	System.out.println("Sum of digits : "+ sumDigits(num));
+	System.out.println("Reverse : "+ reversDigits(num));
+	}
+}

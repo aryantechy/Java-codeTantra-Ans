@@ -23,76 +23,32 @@ class FibonacciSeries{
 		// Iterate till counter is N
 		
 		while (counter < N) {
-			
-			
-			
-			// Print the number
-			
 			System.out.print(num1 + " ");
-			
-			
-			
-			// Swap
-			
 			int num3 = num2 + num1;
-			
 			num1 = num2;
-			
 			num2 = num3;
-			
 			counter = counter + 1;
 			
 		}
 		
 	}
-	
-
-	
-	
-	
-	public static void main(String[] args)
-	
-	{
+public static void main(String[] args){
 		int n=Integer.parseInt(args[0]);
 		int a=0,b=1,c;
 		int k=0;
 		
-		
 		do{
-			
 			if(k==0){
-				System.out.print(a);
-				k=1;
+			.out.print(a);
+			=1;
 			}else{
-				
-			
-			
 			System.out.print(" "+a);
-			}
+	}
 			
-			
-			
-			c=a+b;
-			
-			
-			
-			a=b;
-			
-			
-			
-			b=c;
-			
-			
-			
-		}while(a<=n);
-		
-		
-		
-	
-		
-	
-		
-		
-		
-	}}
+	c=a+b;
+	a=b;
+	b=c;
+	}while(a<=n);
+	}
+}
 	
