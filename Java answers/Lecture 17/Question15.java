@@ -7,48 +7,19 @@ Cmd Args : 80
 
 package q10896;
 class FibonacciSeries{
-	
-	static void Fibonacci(int N)
-	
-	{
-		
-		int num1 = 0, num2 = 1;
-		
-		
-		
-		int counter = 0;
-		
-		
-		
-		// Iterate till counter is N
-		
-		while (counter < N) {
-			System.out.print(num1 + " ");
-			int num3 = num2 + num1;
-			num1 = num2;
-			num2 = num3;
-			counter = counter + 1;
-			
-		}
-		
-	}
+
 public static void main(String[] args){
 		int n=Integer.parseInt(args[0]);
-		int a=0,b=1,c;
+		int a=0,b=1;
 		int k=0;
-		
-		do{
-			if(k==0){
-			.out.print(a);
-			=1;
-			}else{
-			System.out.print(" "+a);
-	}
-			
+		System.out.println(a);
+	while(b<=n){
+		System.out.println(" "+b);
 	c=a+b;
 	a=b;
 	b=c;
-	}while(a<=n);
+
+	}
 	}
 }
 	
